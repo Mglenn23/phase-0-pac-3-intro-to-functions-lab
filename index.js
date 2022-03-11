@@ -1,33 +1,31 @@
-function shout(string){
-return string.toUpperCase();
+function shout(string) {
+  return string.toUpperCase();
 }
 
-function whisper(string){
-return string.toLowerCase();
+function whisper(string) {
+  return string.toLowerCase();
 }
 
-function logShout(string){
-let s2=string.toUpperCase();
-console.log(s2);
+function logShout(string) {
+  let s2 = string.toUpperCase();
+  console.log(s2);
 }
 
-function logWhisper(string){
-let slow= string.toLowerCase();
-console.log(slow);
+function logWhisper(string) {
+  let slow = string.toLowerCase();
+  console.log(slow);
 }
 
-function sayHiToHeadphonedRoommate(string){
-let a=string;
-if(a=='hello'){
+function sayHiToHeadphonedRoommate(string) {
+  let a = string;
+  if (a == a.toLowerCase()) {
     let b = "I can't hear you!";
-return b;
-}
-else if(a=='HELLO'){
+    return b;
+  } else if (a == a.toUpperCase()) {
     let c = "YES INDEED!";
     return c;
-}
-else if(a=="Let's have dinner together!"){
+  } else if (a == "Let's have dinner together!") {
     let d = "I would love to!";
     return d;
-}
+  }
 }
